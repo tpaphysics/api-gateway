@@ -37,6 +37,12 @@ $ yarn kafka:down
 
 ```
 
+## Iniciar
+
+```bash
+yarn start:dev
+```
+
 ## Swagger
 
 ```url
