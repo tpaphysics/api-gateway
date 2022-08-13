@@ -20,17 +20,17 @@ export class UsersService {
   }
 
   findOne(id: string): Observable<User> {
-    return this.clientKafka.send('users.findOne', { user_id: id });
+    return this.clientKafka.send('users.findOne', id);
   }
 
   update(id: string, updateUserDto: UpdateUserDto): Observable<User> {
     return this.clientKafka.send('users.update', {
-      updateUserDto,
-      user_id: id,
+      id,
+      ...updateUserDto,
     });
   }
 
   remove(id: string): Observable<User> {
-    return this.clientKafka.send('users.delete', { user_id: id });
+    return this.clientKafka.send('users.delete', id);
   }
 }

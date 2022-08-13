@@ -11,8 +11,8 @@ export class User {
   email: string;
 
   @ApiProperty()
-  created_at?: string;
+  created_at?: string | Date;
 
   @ApiProperty()
-  updated_at?: string;
+  updated_at?: string | Date;
 }
