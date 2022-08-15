@@ -17,7 +17,7 @@
 <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="Prisma" />
   
 ##  Descrição
-API Gateway construída com framework [Nestjs](https://nestjs.com), [Apache Kafka](https://kafka.apache.org/), [Swagger](https://swagger.io/), [Docker Compose](https://docs.docker.com/compose/).
+API Gateway construída com framework [Nestjs](https://nestjs.com). Funciona juntamente com o [microserviço](https://github.com/tpaphysics/users-microservice).
 
 ## Arquitetura
 
