@@ -17,7 +17,7 @@
 <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="Prisma" />
   
 ##  Descrição
-API Gateway construída com framework [Nestjs](https://nestjs.com). Funciona juntamente com o [microserviço](https://github.com/tpaphysics/users-microservice).
+API Gateway construída com framework [Nestjs](https://nestjs.com). Funciona juntamente com o [microsserviço](https://github.com/tpaphysics/users-microservice).
 
 ## Arquitetura
 
@@ -48,10 +48,6 @@ yarn start:dev
 ```url
 http://localhost:3000/docs
 ```
-
-## **💥 Considerações**
-
-Existem muitas vantagens na utilização do NestJs para criação de microserviços pelo fato dele ser simples de usar e também por respeitar os principios do <strong>SOLID</strong>. 
 
 ## **👨‍🚀 Autor**
 
